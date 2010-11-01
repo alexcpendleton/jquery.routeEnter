@@ -20,3 +20,6 @@ fieldset li { margin:5px 0; }
 fieldset li label {display:-moz-inline-box; display:inline-block;width:80px; }
 
 pre { margin:0; }
+#mainNav { margin:-10px 0; text-align:center;}
+#mainNav ul { list-style:none; margin:0; padding:0; }
+#mainNav li { display:-moz-inline-box;display:inline-block; margin:0 10px; }

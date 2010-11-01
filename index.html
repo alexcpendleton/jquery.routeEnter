@@ -34,9 +34,7 @@ fullLink: scripts/jquery.routeEnter.js
 		<h3>No configuration</h3>
 		<p>Will default to the first submit button (input[type=submit]:first) in each section. When the form submits you will see the submitted button in the query string.<p>
 		<div class="code">
-			{% highlight js linenos %}
-			$("#noConfigExample .register, #noConfigExample .login").routeEnter();
-			{% endhighlight %}
+			{% highlight js linenos %}$("#noConfigExample .register, #noConfigExample .login").routeEnter();{% endhighlight %}
 			<script type="text/javascript">
 			$(function() {
 				$("#noConfigExample .register, #noConfigExample .login").routeEnter();
@@ -97,14 +95,6 @@ fullLink: scripts/jquery.routeEnter.js
 			</tr>
 		</thead>
 		<tbody>
-			<!--formDataKey:"enterRouted",
-		router:{
-			attr:{type:"submit", id:"enterRouter", name:"enterRouter"},
-			css:{ position:'absolute', left:'-2000px' }// IE won't send click events to a button with display:none, so just move it off screen
-		},
-		fields:":input",
-		buttonEvent:"click",
-		targetForm:$("form:first"),-->
 			<tr>
 				<td class="name">button</td>
 				<td class="type">Selector, Element, jQuery</td>
