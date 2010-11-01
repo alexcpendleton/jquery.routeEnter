@@ -1,0 +1,17 @@
+%html
+	%head
+		%title jquery.routeEnter Documentation
+		%link{:rel=>'stylesheet', :href=>'/blueprint/screen.css', :media=>'screen, projection'}
+		%link{:rel=>'stylesheet', :href=>'/blueprint/print.css', :media=>'print'}
+		%link{:rel=>'stylesheet', :href=>'/blueprint/src/typography.css', :media=>'screen, projection'}
+		%link{:rel=>'stylesheet', :href=>'/css/main.css', :media=>'screen, projection'}
+		/[if lt IE 8]
+			%link{:rel=>'stylesheet', :href=>'/css/blueprint/ie.css', :media=>'screen, projection'}
+	%body
+		%div.container.showGrid
+			%header 
+				%h1 jquery.routeEnter Documentation
+			%div#content
+				= yield			
+			%footer 
+		
